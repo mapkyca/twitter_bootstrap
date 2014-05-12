@@ -16,7 +16,7 @@ function twitter_bootstrap_init() {
 	elgg_register_js('custom_js', $custom_js);
 	
 	//we use google jquery instead of Elgg's as it is more up-to-date and required for bootstrap
-	$google_jquery = '//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js';
+	$google_jquery = '//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js';
 	elgg_register_js('google_jquery', $google_jquery, 'head', 10);
 	
 	//register bootstrap css and js
