@@ -19,6 +19,9 @@ function twitter_bootstrap_init() {
 	$google_jquery = '//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js';
 	elgg_register_js('google_jquery', $google_jquery, 'head', 10);
 	
+	$google_jquery_migrate = 'mod/twitter_bootstrap/vendors/jquery/jquery-migrate-1.2.1.min.js';
+	elgg_register_js('google_jquery_migrate', $google_jquery_migrate, 'head', 11);
+	
 	//register bootstrap css and js
 	$bootstrap_js = 'mod/twitter_bootstrap/vendors/bootstrap/js/bootstrap.min.js';
 	elgg_register_js('bootstrap', $bootstrap_js, 'footer');
