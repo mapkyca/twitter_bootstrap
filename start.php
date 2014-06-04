@@ -38,6 +38,7 @@ function twitter_bootstrap_init() {
 	
 	//load ibraries @todo not sure if this is the best place to do this?
 	elgg_load_js('google_jquery');
+	elgg_load_js('google_jquery_migrate');
 		
 	$get_context = elgg_get_context();
 	//we don't want bootstrap loading when in the admin area, not sure this is the best way to do this
